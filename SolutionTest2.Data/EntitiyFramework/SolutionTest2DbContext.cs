@@ -8,9 +8,9 @@ using SolutionTest2.Data.Configurations;
 
 namespace SolutionTest2.Data.EntityFramework
 {
-    public class EShopDbContext : DbContext
+    public class SolutionTest2DbContext : DbContext
     {
-        public EShopDbContext(DbContextOptions options) : base(options)
+        public SolutionTest2DbContext(DbContextOptions options) : base(options)
         {
         }
        protected override void OnModelCreating(ModelBuilder modelBuilder)
