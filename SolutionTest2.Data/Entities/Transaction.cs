@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SolutionTest2.Data.Entities
 {
-    public class Transaction
+    public class TransactionTest
     {
         public int Id { set; get; }
         public DateTime TransactionDate { set; get; }

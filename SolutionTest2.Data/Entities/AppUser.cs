@@ -16,8 +16,8 @@ namespace SolutionTest2.Data.Entities
 
             public List<Cart> Carts { get; set; }
 
-            public List<Order> Orders { get; set; }
+            public List<OrderDetail> Orders { get; set; }
 
-            public List<Transaction> Transactions { get; set; }
+            public List<TransactionTest> Transactions { get; set; }
         }
     }

@@ -17,6 +17,14 @@ namespace SolutionTest2.Data.Entities
         public DateTime DateCreated { set; get; }
         [Required]
         public string SeoA { set; get; }
+        public List<ProductInCategory> ProductInCategories { get; set; }
+
+        public List<OrderDetail> OrderDetails { get; set; }
+        public List<Cart> Carts { get; set; }
+
+       public List<ProductTranslation> ProductTranslations { get; set; }
+
+//        public List<ProductImage> ProductImages { get; set; }
 
     }
 }

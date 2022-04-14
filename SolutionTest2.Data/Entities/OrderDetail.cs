@@ -14,5 +14,6 @@ namespace SolutionTest2.Data.Entities
         public Order Order { get; set; }
 
         public ProductTest ProductTest { get; set; }
+        //public List<OrderDetail> OrderDetails { get; set; }
     }
 }

@@ -15,6 +15,7 @@ namespace SolutionTest2.Data.Entities
         public string SeoAlias { set; get; }
 
         public CategoryTest Category { get; set; }
+        //1 to many
 
         public Language Language { get; set; }
     }
