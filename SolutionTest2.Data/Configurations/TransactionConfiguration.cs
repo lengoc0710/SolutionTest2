@@ -18,7 +18,7 @@ namespace SolutionTest2.Data.Configurations
 
             builder.Property(x => x.Id).UseIdentityColumn();
 
-            builder.HasOne(x => x.AppUser).WithMany(x => x.Transactions).HasForeignKey(x => x.UserId);
+            //builder.HasOne(x => x.AppUser).WithMany(x => x.Transactions).HasForeignKey(x => x.UserId);
         }
     }
 }

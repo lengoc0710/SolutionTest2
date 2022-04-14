@@ -55,8 +55,8 @@ namespace SolutionTest2.Data.EntityFramework
 
         public DbSet<TransactionTest> Transactions { get; set; }
 
-        public DbSet<ProductImage> ProductImages { get; set; }
+      //  public DbSet<ProductImage> ProductImages { get; set; }
 
-        public DbSet<Slide> Slides { get; set; }
+      //  public DbSet<Slide> Slides { get; set; }
     }
 }
