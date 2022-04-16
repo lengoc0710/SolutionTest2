@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using SolutionTest2.Data.Configurations;
+using SolutionTest2.Data.Extensions;
 
 namespace SolutionTest2.Data.EntityFramework
 {
@@ -29,10 +30,12 @@ namespace SolutionTest2.Data.EntityFramework
             modelBuilder.ApplyConfiguration(new LanguageConfiguration());
             modelBuilder.ApplyConfiguration(new TransactionConfiguration());
 
-           // base.OnModelCreating(modelBuilder);
+            modelBuilder.Seed();
+
+            // base.OnModelCreating(modelBuilder);
             //add own configuration
         }
-        
+
         public DbSet<ProductTest> Products { get; set; }
         public DbSet<CategoryTest> Categories { get; set; }
 

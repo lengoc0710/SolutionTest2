@@ -16,7 +16,7 @@ namespace SolutionTest2.Data.Entities
         public int ViewCount { set; get; }
         public DateTime DateCreated { set; get; }
         [Required]
-        public string SeoA { set; get; }
+        //public string SeoAlias { set; get; }
         public List<ProductInCategory> ProductInCategories { get; set; }
 
         public List<OrderDetail> OrderDetails { get; set; }
